@@ -1,0 +1,54 @@
+.email-detail-container {
+  max-width: 800px;
+  margin: auto;
+  padding: 20px;
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  font-family: Arial, sans-serif;
+}
+
+.email-detail-container h2 {
+  color: #732D91; 
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.email-detail-container p {
+  font-size: 16px;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.email-detail-container hr {
+  margin: 15px 0;
+  border: 1px solid #ddd;
+}
+
+/* ✅ Email Body Formatting */
+.email-body {
+  background: #f9f9f9;
+  padding: 15px;
+  border-radius: 5px;
+  color: #444;
+  font-size: 15px;
+  line-height: 1.5;
+}
+
+/* ✅ Back to Home Button */
+.back-home-button {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 10px 15px;
+  background: #732D91; 
+  color: #fff;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.back-home-button:hover {
+  background: #5a2374; 
+}
